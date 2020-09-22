@@ -1,26 +1,41 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import YoutubeBackground from 'react-youtube-background'
+import Header from "./Header/header";
+import Footer from "./Footer/Footer";
+import Article from "./Article/Article";
+import {BrowserRouter, Route } from "react-router-dom";
+import Prising from './Aos/Aos2'
+import Main from "./Main/Main";
 
-function App() {
+
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+     <BrowserRouter>
+        <YoutubeBackground  loop autoPlay
+            // videoId ='B_la8N_AYkA' >
+                           videoId ='tGx-EMuruq8'>
+          {/* // videoId ='R9mXtzn8meE' >*/}
+          {/* // videoId ='x3to_8SqZ9s' >*/}
+          {/*// videoId ='Gb60nPzgS8o' >*/}
+          {/*// videoId ='gTv6s0r_GKI' >*/}
+          {/*//  videoId ='dgAldVi00OM' >*/}
 
+        <div className='Content2' >
+
+          <Header/>
+         <Route path='/Menu' component={Article}/>
+          <Route path='/Prising' component={Prising}/>
+          <Route path='/Main' component={Main}/>
+
+          <Footer />
+      </div>
+
+        </YoutubeBackground >
+       </BrowserRouter>
+  )
+
+}
 export default App;
+

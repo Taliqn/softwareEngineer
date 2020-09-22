@@ -1,0 +1,61 @@
+.Pris {
+  display: grid;
+    grid-area: 2/3/2/2;
+    overflow: revert;
+
+}
+.text2 {
+    font-size:3vw;
+    display: grid;
+    margin-top: 0;
+    color: #8da6ce;
+    text-align: justify;
+    position: relative;
+
+
+}
+.h1 {
+    display: grid;
+    font-size:2vw;
+    margin-top: 0;
+    margin-left: 50%;
+    transform: translate(-50%, 0)
+}
+
+.h3 {
+    display: grid;
+
+    margin: 0;
+
+}
+
+.pic {
+    display: grid;
+    position: absolute;
+
+}
+
+.pic2 {
+    display: grid;
+    margin-top: 0;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+    height:auto;
+    width: 50%;
+
+
+}
+
+/*.bottom {*/
+/*    offset: 120px;*/
+/*    font-size:2vw;*/
+/*    display: grid;*/
+/*    position: center;*/
+/*    background: rgba(4, 42, 42, 0.5);*/
+/*    padding: 10px;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);*/
+/*    border-radius: 10px 10px 10px 10px;*/
+/*}*/
+
