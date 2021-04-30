@@ -26,7 +26,8 @@ const Article = () => {
                 <div className='boxes'><NavLink to='/Prising' className='a'>
                     <span>Developing</span></NavLink>
                 </div>
-                <div className='boxes'><a href='#' className='a'> <small>Engineering</small></a>
+                <div className='boxes'><NavLink to='/Prising' className='a'>
+                    <span>Engineering</span></NavLink>
                 </div>
                 <div className='boxes' ><NavLink to='/Prising' className='a'>
                     <span>Developing</span></NavLink>
@@ -43,12 +44,16 @@ const Article = () => {
                 <div  className='boxes' ><NavLink to='/Prising' className='a'>
                     <span>Developing</span></NavLink>
                 </div>
-                <div  className='boxes'><a href='#' className='a'> <small>Software Engineering</small></a>
+                <div  className='boxes' ><NavLink to='/Prising' className='a'>
+                    <span>Developing</span></NavLink>
                 </div>
-                <div  className='boxes' ><a href='#' className='a'> <small>Software Engineering</small></a>
+                <div  className='boxes' ><NavLink to='/Prising' className='a'>
+                    <span>Developing</span></NavLink>
                 </div>
-                <div  className='boxes' ><a href='#' className='a'> <small>Software Engineering</small></a>
+                <div  className='boxes' ><NavLink to='/Prising' className='a'>
+                    <span>Developing</span></NavLink>
                 </div>
+
 
 
             </div>

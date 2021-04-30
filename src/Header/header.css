@@ -6,6 +6,7 @@
 }
 
 .bottomH {
+    font-size:100%;
     padding: 0;
     margin-bottom: 0;
     display: grid;
@@ -17,23 +18,42 @@
     font-family: Consolas;
 }
 .aHeader {
-    font-size:1.5vw;
-    position: relative;
+    font-size: calc(10px + 16 * (100vw / 1200));
+    padding: 0;
+    margin-bottom: 0;
     display: grid;
-    padding: 5% 8%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    /*min-height: 100vh;*/
+    /*background: #031321;*/
+    /*font-family: Consolas;*/
+    /*font-size: calc(10px + 16 * (100vw / 1200));;*/
+    /*position: relative;*/
+    /*display: grid;*/
+    /*padding: 5% 8%;*/
     color: #8da6ce;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     letter-spacing: 2px;
     text-decoration: silver;
-    overflow: hidden;
     transition: 0.2s;
 
 
 }
 
 .aHeader:hover {
-    margin-bottom: 0;
     font-size:1.5vw;
+    padding: 0;
+    margin-bottom: 0;
+    display: grid;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    /*min-height: 100vh;*/
+    /*background: #031321;*/
+    /*font-family: Consolas;*/
+    /*margin-bottom: 0;*/
+    /*font-size:100%;*/
     color: #255784;
     background: #2196f3;
     box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3 ;

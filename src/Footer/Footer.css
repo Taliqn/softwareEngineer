@@ -8,9 +8,8 @@
 
 
 .bottomF {
-
-    padding: 0;
-    margin-bottom: 0;
+    padding: 10px;
+    margin-bottom: 5%;
     display: grid;
     position: relative;
     justify-content: center;
@@ -20,18 +19,15 @@
     font-family: Consolas;
 }
 .aFooter {
-    font-size:1.5vw;
+    font-size: calc(10px + 16 * (100vw / 1200));
     position: relative;
     display: grid;
     padding: 5% 8%;
     color: #8da6ce;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+    /*text-transform: uppercase;*/
+    /*letter-spacing: 2px;*/
     text-decoration: silver;
-    overflow: hidden;
     transition: 0.2s;
-
-
 }
 
 .aFooter:hover {
