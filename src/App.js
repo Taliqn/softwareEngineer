@@ -3,7 +3,7 @@ import './App.css';
 import YoutubeBackground from 'react-youtube-background'
 import Header from "./Header/header";
 import Footer from "./Footer/Footer";
-
+import Article from "./Article/Article";
 import {BrowserRouter, Route } from "react-router-dom";
 import Prising from './Aos/Aos2'
 import Main from "./Main/Main";
@@ -25,7 +25,7 @@ const App = () => {
         <div className='Content2' >
 
           <Header/>
-
+         <Route path='/Menu' component={Article}/>
           <Route path='/Prising' component={Prising}/>
           <Route path='/Main' component={Main}/>
 
