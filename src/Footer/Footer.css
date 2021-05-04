@@ -23,16 +23,16 @@
     position: relative;
     display: grid;
     padding: 5% 8%;
-    color: #8da6ce;
     /*text-transform: uppercase;*/
     /*letter-spacing: 2px;*/
     text-decoration: silver;
+    color: #d4dbe7;
     transition: 0.2s;
 }
 
 .aFooter:hover {
+    font-size: calc(12px + 16 * (100vw / 1200));
     margin-bottom: 0;
-    font-size:1.5vw;
     color: #255784;
     background: #2196f3;
     box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3 ;

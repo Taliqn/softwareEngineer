@@ -3,6 +3,7 @@
     grid-area: header;
     background: rgba(4, 42, 42, 0.5);
     padding: 1px;
+    width: 100vw;
 }
 
 /*.bottomH {*/
@@ -29,49 +30,88 @@
 /*    transition: 0.2s;*/
 /*}*/
 
-
+.info {
+    display: flex;
+    color: aliceblue;
+    text-decoration: silver;
+    margin: 10px auto 10px 0;
+    font-size: calc(10px + 16 * (100vw / 1200));
+}
 
 .menu li {
     list-style: none;
+    position: relative;
 }
 
 .menu__list {
     display: flex;
-
+    margin: auto;
 }
 
-.menu__list li {
-    margin: 0 20px 0 0;
-
+.menu__list>li {
+    margin: 0 5px 0 0;
 }
 
 .menu__list>li:hover .sub-menu__list{
     display: block;
+
 }
 
 .menu__link {
+    display: flex;
     color: aliceblue;
+    text-decoration: silver;
+    margin: 10px auto 20px 20px;
+    font-size: calc(10px + 16 * (100vw / 1200));
 }
+
+
+.menu__link:hover {
+        padding: 0;
+        margin-bottom: 0;
+        /*font-size: calc(16px + 16 * (100vw / 1200));*/
+        position: relative;
+        /*justify-content: center;*/
+        /*align-items: center;*/
+        color: #255784;
+        background: #2196f3;
+        box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3 ;
+}
+
 .sub-menu__link {
-    text-decoration: none;
+    text-decoration: silver;
     color: #d7deec;
-    /*padding: 10px 10px 10px 10px;*/
+    /*padding: 10px 30px 10px 10px;*/
     font-size: calc(6px + 16 * (100vw / 1200));
-
-
+    margin: 0 20px 0 0;
+    justify-content: center;
+    align-items: center;
 }
+
+.sub-menu__link:hover {
+        font-size: calc(6px + 16 * (100vw / 1200));
+        margin-bottom: 0;
+        display: grid;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        color: #255784;
+        background: #2196f3;
+        box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3 ;
+}
+
 .sub-menu__list {
-    min-width: 200px;
+    min-width: 150px;
     display: none;
     position: absolute;
-    background: rgba(4, 42, 42, 0.5);
+    background: rgba(4, 42, 42, 0.1);
     left: 20px;
-    top: 35px;
-    padding: 20px 20px 0 0 ;
+    top: 20px;
+    padding: 20px 10px 0 0;
 }
 
 .sub-menu__list>li{
-    background: rgba(4, 42, 42, 0.5);
+    background: rgba(4, 42, 42, 0.1);
 }
 
 /*.aHeader:hover {*/
