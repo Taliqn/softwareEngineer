@@ -25,19 +25,19 @@ const Header = () => {
                                 (
                         <ul className="header__list">
                             <li>
-                                <a  className="header__link">Главная</a>
+                                <NavLink to='/Menu'  className="header__link">Главная</NavLink>
                             </li>
                             <li>
-                                <a  className="header__link">Проекты</a>
+                                <NavLink to='/Menu'  className="header__link">Проекты</NavLink>
                             </li>
                             <li>
-                                <a  className="header__link">Технологии</a>
+                                <NavLink to='/Menu'  className="header__link">Технологии</NavLink>
                             </li>
                             <li>
-                                <a  className="header__link">Клиенты</a>
+                                <NavLink to='/Menu'  className="header__link">Клиенты</NavLink>
                             </li>
                             <li>
-                                <a  className="header__link">Контакты</a>
+                                <NavLink to='/Menu'  className="header__link">Контакты</NavLink>
                             </li>
 
                         </ul>
