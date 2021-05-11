@@ -14,7 +14,7 @@ const Article = () => {
 
         <div className="mainArticle"
              data-aos="flip-right"
-             data-aos-offset="10"
+             data-aos-offset="1"
              data-aos-delay="50"
              data-aos-duration="300"
              data-aos-easing="ease-in-out"
