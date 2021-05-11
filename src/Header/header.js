@@ -9,9 +9,6 @@ const Header = () => {
             <header className="header">
                 <div className="header__body">
                         <h1 className='info'>FULL STACK DEVELOPMENT</h1>
-                    {/*<a className="header__logo">*/}
-                    {/*    <img src="img/logo.jpg" alt="">*/}
-                    {/*</a>*/}
                     <div>
                         <Media query="(max-width: 768px)" render={() =>
                             (
