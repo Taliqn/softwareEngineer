@@ -14,46 +14,29 @@ const Article = () => {
 
         <div className="mainArticle"
              data-aos="flip-right"
-             data-aos-offset="200"
+             data-aos-offset="10"
              data-aos-delay="50"
-             data-aos-duration="2000"
+             data-aos-duration="300"
              data-aos-easing="ease-in-out"
              data-aos-mirror="true"
              data-aos-once="false"
              data-aos-anchor-placement="top-center">
             <div className='ar'>
                 <div className='boxes'><NavLink to='/Prising' className='a'>
-                    <span>Developing</span></NavLink>
+                    <span>Технологии</span></NavLink>
                 </div>
                 <div className='boxes'><NavLink to='/Prising' className='a'>
-                    <span>Engineering</span></NavLink>
+                    <span>Проекты</span></NavLink>
                 </div>
                 <div className='boxes' ><NavLink to='/Prising' className='a'>
-                    <span>Developing</span></NavLink>
+                    <span>Клиенты</span></NavLink>
+                </div>
+                <div className='boxes' ><NavLink to='/Prising' className='a'>
+                    <span>Контакты</span></NavLink>
                 </div>
                 <div className='boxes'><NavLink to='/Main' className='a'>
-                    <small>back</small></NavLink>
+                    <small>Главная</small></NavLink>
                 </div>
-                <div className='boxes' ><NavLink to='/Prising' className='a'>
-                    <span>Developing</span></NavLink>
-                </div>
-                <div  className='boxes'><NavLink to='/Prising' className='a'>
-                    <span>Developing</span></NavLink>
-                </div>
-                <div  className='boxes' ><NavLink to='/Prising' className='a'>
-                    <span>Developing</span></NavLink>
-                </div>
-                <div  className='boxes' ><NavLink to='/Prising' className='a'>
-                    <span>Developing</span></NavLink>
-                </div>
-                <div  className='boxes' ><NavLink to='/Prising' className='a'>
-                    <span>Developing</span></NavLink>
-                </div>
-                <div  className='boxes' ><NavLink to='/Prising' className='a'>
-                    <span>Developing</span></NavLink>
-                </div>
-
-
 
             </div>
         </div>

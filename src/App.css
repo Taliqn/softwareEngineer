@@ -1,3 +1,29 @@
+html, body {
+  font-family: Arial, "Helvitica Neue", Helvitica, sans-serif;
+  padding:0;
+  margin:0;
+  overflow:hidden;
+
+  /*max-width: available;*/
+}
+
+
+canvas {
+  /*padding:6.3rem 6rem 4rem 0;*/
+  /*margin: 6.3rem 16rem 10rem 0;*/
+  height: 100%;
+  width: 100%;
+}
+div.btnbg {
+  position:fixed;
+  width: 100%;
+  height: auto;
+  left:0;
+  top:0;
+}
+
+
+
 .Content {
 
 }
@@ -8,16 +34,21 @@
           "header header header"
           "nav article ads"
           "footer footer footer";
-  grid-template-rows: 10% 1fr 10%;
-  grid-template-columns: 1% 1fr 1%;
-  grid-gap: 10px;
+  grid-template-rows: 20% 1fr 12%;
+  grid-template-columns: 1% 90% 1%;
+  grid-gap: 5%;
   height: 100vh;
 
 
+
 }
-footer, article, nav, div {
+footer, nav, div {
   padding: 0px;
   background: rgba(0, 50, 40, 0.0);
+}
+
+article {
+  margin: 1rem;
 }
 
 .pageFooter {

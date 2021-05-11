@@ -1,28 +1,20 @@
 import React from 'react';
 import './App.css';
-import YoutubeBackground from 'react-youtube-background'
 import Header from "./Header/header";
-import Footer from "./Footer/Footer";
 import Article from "./Article/Article";
 import {BrowserRouter, Route } from "react-router-dom";
 import Prising from './Aos/Aos2'
 import Main from "./Main/Main";
+import Footer from "./Footer/Footer";
+
 
 
 
 const App = () => {
   return (
      <BrowserRouter>
-        <YoutubeBackground  loop autoPlay
-             // videoId ='B_la8N_AYkA'>
-                          /*videoId ='tGx-EMuruq8'>*/
-                           // videoId ='null'>
-           // videoId ='R9mXtzn8meE'>
-           // videoId ='x3to_8SqZ9s' >
-           videoId ='Gb60nPzgS8o' >
-          {/*// videoId ='gTv6s0r_GKI' >*/}
-          {/*//  videoId ='dgAldVi00OM' >*/}
-
+         <canvas id="sakura"></canvas>
+         <div className="btnbg">
         <div className='Content2' >
 
           <Header/>
@@ -32,8 +24,8 @@ const App = () => {
 
           <Footer />
       </div>
+         </div>
 
-        </YoutubeBackground >
        </BrowserRouter>
   )
 
