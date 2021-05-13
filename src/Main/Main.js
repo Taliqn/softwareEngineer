@@ -1,7 +1,5 @@
 import React, { useEffect } from "react";
-import image from '../img/fullsack.jpg'
 import './Main.css'
-import {NavLink} from "react-router-dom";
 import Aos from 'aos'
 
 const Main = () => {
