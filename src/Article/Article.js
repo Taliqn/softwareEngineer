@@ -8,13 +8,13 @@ import 'aos/dist/aos.css'
 
 const Article = () => {
     useEffect(() => {
-        Aos.init({})
+        Aos.init({duration: 100 })
     }, [],)
     return (
 
-        <div className="mainArticle"
+        <buttom className="mainArticle"
              data-aos="flip-right"
-             data-aos-offset="1"
+             data-aos-offset="0"
              data-aos-delay="50"
              data-aos-duration="300"
              data-aos-easing="ease-in-out"
@@ -39,7 +39,7 @@ const Article = () => {
                 </div>
 
             </div>
-        </div>
+        </buttom>
 
     )
 }

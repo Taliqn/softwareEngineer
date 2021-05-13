@@ -4,23 +4,22 @@
     overflow: revert;
 
 }
-.text2 {
-    font-size:calc(8px + 16 * (100vw / 1200));
-    display: grid;
-    margin-top: 0;
-    color: #8da6ce;
-    text-align: justify;
-    position: relative;
-
-
-}
-.h1 {
-    display: grid;
-    font-size:2vw;
-    margin-top: 0;
-    margin-left: 50%;
-    transform: translate(-50%, 0)
-}
+/*.text2 {*/
+/*    font-size:calc(8px + 16 * (100vw / 1200));*/
+/*    display: grid;*/
+/*    margin-top: 0;*/
+/*    color: #8da6ce;*/
+/*    text-align: justify;*/
+/*    position: relative;*/
+/*    overflow: scroll;*/
+/*}*/
+/*.h1 {*/
+/*    display: grid;*/
+/*    font-size:2vw;*/
+/*    margin-top: 0;*/
+/*    margin-left: 50%;*/
+/*    transform: translate(-50%, 0)*/
+/*}*/
 
 .h3 {
     display: grid;

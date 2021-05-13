@@ -1,10 +1,10 @@
 .pageHeader {
-    display: flex;
-    grid-area: header;
-    /*background: rgba(4, 42, 42, 0.1);*/
-    padding: 1px;
+    display: grid;
+    /*grid-area: header;*/
+    background: rgba(4, 42, 42, 0.9);
+    /*margin: auto 5rem;*/
     width: 100vw;
-    margin-bottom: 100px;
+    /*margin-bottom: 10px;*/
 }
 
 /*.boxes {*/
@@ -45,9 +45,9 @@
 /*}*/
 
 
-.header:before {
+/*.header:before {*/
 
-}
+/*}*/
 
 
 .header__body {
@@ -85,12 +85,24 @@
 }
 
 .header__link {
-    color: aliceblue;
+    color: #99cd5b;
     text-transform: uppercase;
     font-size: calc(6px + 6 * (100vw / 1200));
     text-decoration: none;
-    text-decoration: silver;
+    text-decoration: none;
     padding: unset;
+}
+
+.mobile {
+    background-color: rgba(4, 42, 42, 0.1);
+    position: inherit;
+    /*border-radius: 50%;*/
+    width: 15%;
+    height: auto;
+    margin: 0.9rem;
+    opacity: 0.9;
+    right: 0;
+
 }
 
 .header {
@@ -100,16 +112,16 @@
     left: 0;
     width: 100%;
     height: 5rem;
-    background: rgba(4, 42, 42, 0.4);
+    background: rgba(4, 42, 42, 0.9);
     box-shadow: 0 0 10px #3a4538, 0 0 40px #3b453a, 0 0 80px #3f493d;
     /*z-index: 6;*/
 
 }
 
 .info {
-    display: flex;
-    color: aliceblue;
-    text-decoration: silver;
+    display: grid;
+    color: silver;
+    text-decoration: #c0c0c0;
     padding: unset;
     margin: 25px 10px 10px 20px;
     font-size: calc(10px + 6 * (100vw / 1200));
@@ -149,21 +161,16 @@
     .botom {
         display: block;
         position: absolute;
-        width: 30px;
-        height: 20px;
         margin: 2.5rem 1rem 1rem 1rem;
         right: 1rem;
     }
     .botom {
         display: block;
         position: absolute;
-        border-radius: 30%;
         background: rgba(4, 42, 42, 0.1);
-        margin: auto;
-        width: 10%;
-        height: 25px;
-        top: 1.5rem;
-        box-shadow: 0 0 10px #3a4538, 0 0 40px #3b453a, 0 0 80px #3f493d;
+        margin: 1rem;
+        width: 8%;
+        height: auto;
     }
 
 

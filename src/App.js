@@ -22,7 +22,7 @@ const App = () => {
           <Route path='/Prising' component={Prising}/>
           <Route path='/Main' component={Main}/>
 
-          <Footer />
+          {/*<Footer />*/}
       </div>
          </div>
 

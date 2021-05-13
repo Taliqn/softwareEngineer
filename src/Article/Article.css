@@ -1,54 +1,55 @@
 .mainArticle {
-    display: grid;
-    grid-area:  article;
-    background: rgba(4, 42, 42, 0.3);
-    padding: 1px;
+    /*display: grid;*/
+    /*grid-area:  article;*/
+    background: rgba(4, 42, 42, 0.4);
+    height: 100vh;
+    width: 100%;
     overflow: hidden;
     box-shadow: 0 0 10px #3a4538, 0 0 40px #3b453a, 0 0 80px #3f493d;
+    margin: 5rem 0;
 }
 
 .ar {
-    justify-content: center;
-    position: relative;
-    min-height: 100%;
-    flex-wrap: wrap;
     display: grid;
-    /*max-width: 1000%;*/
+    color: #f1f2f8;
+    text-align: justify;
+    position: relative;
+    margin: 4rem 10rem 10rem 10rem;
+    justify-content: center;
     overflow: scroll;
-
 }
-.ar > div {
-    flex-basis: calc(50% - 40px);
-}
+/*.ar > div {*/
+/*    flex-basis: calc(50% - 40px);*/
+/*}*/
 
-.ar::-webkit-scrollbar-button {
+/*.ar::-webkit-scrollbar-button {*/
 
-    background-repeat:no-repeat;
-    width:0;
+/*    background-repeat:no-repeat;*/
+/*    width:0;*/
 
-}
+/*}*/
 
-.ar::-webkit-scrollbar-track {
-    background-color: #0a0d0e;
-    width:0;
-}
+/*.ar::-webkit-scrollbar-track {*/
+/*    background-color: #0a0d0e;*/
+/*    width:0;*/
+/*}*/
 
-.ar::-webkit-scrollbar-thumb {
-    -webkit-border-radius: 0px;
-    border-radius: 0px;
-    background-color:#6dc0c8;
-}
+/*.ar::-webkit-scrollbar-thumb {*/
+/*    -webkit-border-radius: 0px;*/
+/*    border-radius: 0px;*/
+/*    background-color:#6dc0c8;*/
+/*}*/
 
-.ar::-webkit-scrollbar-thumb:hover{
-    background-color: #0e1315;
-}
+/*.ar::-webkit-scrollbar-thumb:hover{*/
+/*    background-color: #0e1315;*/
+/*}*/
 
-.ar::-webkit-resizer{
+/*.ar::-webkit-resizer{*/
 
-    background-repeat:no-repeat;
-    width:0;
-    height:0px
-}
+/*    background-repeat:no-repeat;*/
+/*    width:0;*/
+/*    height:0px*/
+/*}*/
 
 ::-webkit-scrollbar{
     width: 0%;
@@ -56,7 +57,7 @@
 }
 
 .boxes {
-    font-size: calc(10px + 16 * (100vw / 1200));
+    font-size: calc(20px + 16 * (100vw / 1200));
     padding: 0;
     margin-bottom: 0;
     display: grid;

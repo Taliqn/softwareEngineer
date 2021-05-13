@@ -5,7 +5,7 @@ import Aos from 'aos'
 
 const Prising = () => {
 useEffect (() => {
-Aos.init({ duration: 2000 })
+Aos.init({ duration: 500 })
 }, [])
 return (
 <div className='Pris'>
@@ -13,9 +13,7 @@ return (
 
 <div data-aos="flip-left" data-aos-easing="ease-out-cubic"
                          data-aos-duration="2000" >
-     {/*<div className='pic'>*/}
-     {/*     <img className='pic2' src='https://qwizz.ru/wp-content/uploads/2018/05/it-tekhnologii.jpg'  />*/}
-     {/*</div>*/}
+
      <div className='text2' >
 
      <h3 className='h3'>

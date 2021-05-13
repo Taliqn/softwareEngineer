@@ -12,9 +12,11 @@ const Header = () => {
                     <div>
                         <Media query="(max-width: 768px)" render={() =>
                             (
-                    <div className="botom">
-                        <NavLink className='boxes' to='/Menu'><span
-                        >=</span></NavLink>
+                    <div>
+                        <NavLink  to='/Menu'>
+                            <img src={require("../img/mobile.png")} alt="альтернативный текст" className='botom'/>
+                        </NavLink>
+
                     </div>
                             )}
                         />
@@ -25,7 +27,7 @@ const Header = () => {
                                 (
                         <ul className="header__list">
                             <li>
-                                <NavLink to='/Menu'  className="header__link">Главная</NavLink>
+                                <NavLink to='/Main'  className="header__link">Главная</NavLink>
                             </li>
                             <li>
                                 <NavLink to='/Menu'  className="header__link">Проекты</NavLink>
