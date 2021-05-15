@@ -33,7 +33,6 @@
     padding-right: 10%;
     background: rgba(4, 42, 42, 0.8);
     border-radius: 10px;
-
 }
 
 .imgss {
@@ -52,7 +51,7 @@
     text-align: justify;
     position: center;
     justify-content: center;
-    overflow: scroll;
+    /*overflow: scroll;*/
     /*margin: 1rem 2rem 2rem 2rem;*/
 }
 
@@ -71,7 +70,7 @@
     position: relative;
     margin: 3rem 1rem 1rem 1rem;
     justify-content: center;
-    overflow: scroll;
+    /*overflow: scroll;*/
 }
 /*.bottom2 {*/
 /*    margin-left: 50%;*/
