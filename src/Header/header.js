@@ -10,7 +10,7 @@ const Header = () => {
                 <div className="header__body">
                         <h1 className='info'>FULL STACK DEVELOPMENT</h1>
                     <div>
-                        <Media query="(max-width: 768px)" render={() =>
+                        <Media query="(max-width: 767px)" render={() =>
                             (
                     <div>
                         <NavLink  to='/Menu'>
@@ -30,10 +30,10 @@ const Header = () => {
                                 <NavLink to='/Main'  className="header__link">Главная</NavLink>
                             </li>
                             <li>
-                                <NavLink to='/Menu'  className="header__link">Проекты</NavLink>
+                                <NavLink to='/Project'  className="header__link">Проектирование</NavLink>
                             </li>
                             <li>
-                                <NavLink to='/Menu'  className="header__link">Технологии</NavLink>
+                                <NavLink to='/Technology'  className="header__link">Технологии</NavLink>
                             </li>
                             <li>
                                 <NavLink to='/Menu'  className="header__link">Клиенты</NavLink>

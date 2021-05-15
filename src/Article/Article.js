@@ -22,10 +22,10 @@ const Article = () => {
              data-aos-once="false"
              data-aos-anchor-placement="top-center">
             <div className='ar'>
-                <div className='boxes'><NavLink to='/Prising' className='a'>
+                <div className='boxes'><NavLink to='/Technology' className='a'>
                     <span>Технологии</span></NavLink>
                 </div>
-                <div className='boxes'><NavLink to='/Prising' className='a'>
+                <div className='boxes'><NavLink to='/Project' className='a'>
                     <span>Проекты</span></NavLink>
                 </div>
                 <div className='boxes' ><NavLink to='/Prising' className='a'>

@@ -1,5 +1,4 @@
-.Main {
-    /*display: grid;*/
+.Technology {
     /*grid-area:  article;*/
     background: rgba(4, 42, 42, 0.4);
     /*padding: 0;*/
@@ -8,12 +7,16 @@
     width: 100%;
     margin: 5rem 0;
     justify-content: center;
-
-
+    /*position: page;*/
     /*box-shadow: 0 0 10px #3a4538, 0 0 40px #3b453a, 0 0 80px #3f493d;*/
 }
 
-.infoMains {
+::-webkit-scrollbar{
+    width: 0%;
+    height: 0%;
+}
+
+.infoProject {
     top: 0;
     color: silver;
     text-decoration: silver;
@@ -22,17 +25,15 @@
     font-size: calc(10px + 6 * (100vw / 1200));
 }
 
-.block {
-    justify-content: center;
+.block2 {
     width: auto;
-    height: 25rem;
-    background: rgba(4, 42, 42, 0.8);
-    margin: auto;
-    /*box-shadow: 0 0 10px #3a4538, 0 0 40px #3b453a, 0 0 80px #3f493d;*/
-    border-radius: 10px;
+    height: 150vh;
     padding-top: 4%;
     padding-left: 10%;
     padding-right: 10%;
+    background: rgba(4, 42, 42, 0.8);
+    border-radius: 10px;
+
 }
 
 .imgss {
@@ -55,12 +56,31 @@
     /*margin: 1rem 2rem 2rem 2rem;*/
 }
 
- .text2 {
-     display: grid;
-     color: #f1f2f8;
-     text-align: justify;
-     position: relative;
-     margin: 3rem 1rem 1rem 1rem;
-     justify-content: center;
-     overflow: scroll;
+.textProject {
+
+    color:silver;
+    /*text-align: justify;*/
+    /*position: center;*/
+    /*justify-content: center;*/
 }
+
+.text2 {
+    display: grid;
+    color: #f1f2f8;
+    text-align: justify;
+    position: relative;
+    margin: 3rem 1rem 1rem 1rem;
+    justify-content: center;
+    overflow: scroll;
+}
+/*.bottom2 {*/
+/*    margin-left: 50%;*/
+/*    padding: 0;*/
+/*    display: grid;*/
+/*    position: relative;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    !*min-height: 100vh;*!*/
+/*    !*background: #031321;*!*/
+/*    font-family: Consolas;*/
+/*}*/

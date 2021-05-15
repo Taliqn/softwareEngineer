@@ -7,14 +7,18 @@ const Main = () => {
         Aos.init({ duration: 100 })
     }, [])
     return (
-        <bottom data-aos="fade-left"
-                data-aos-anchor="#example-anchor"
-                data-aos-offset="100"
-                data-aos-duration="400" className='Main'>
+        <bottom   data-aos="flip-right"
+                  data-aos-offset="0"
+                  data-aos-delay="50"
+                  data-aos-duration="300"
+                  data-aos-easing="ease-in-out"
+                  data-aos-mirror="true"
+                  data-aos-once="false"
+                  data-aos-anchor-placement="top-center" className='Main'>
             <div className='text2' >
 
             <div className='block'>
-                <div className='info'>
+                <div className='infoMains'>
                     <h3>
                         Специализация в разработке
                         SPA APP приложений.</h3><br/>

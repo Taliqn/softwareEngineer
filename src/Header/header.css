@@ -85,11 +85,10 @@
 }
 
 .header__link {
-    color: #99cd5b;
+    color: silver;
     text-transform: uppercase;
     font-size: calc(6px + 6 * (100vw / 1200));
-    text-decoration: none;
-    text-decoration: none;
+    text-decoration: silver;
     padding: unset;
 }
 

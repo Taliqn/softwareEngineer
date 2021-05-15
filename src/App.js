@@ -5,6 +5,8 @@ import Article from "./Article/Article";
 import {BrowserRouter, Route } from "react-router-dom";
 import Prising from './Aos/Aos2'
 import Main from "./Main/Main";
+import Project from "./Project/Project";
+import Technology from "./Tecnology/Tecnology";
 
 
 
@@ -21,6 +23,8 @@ const App = () => {
          <Route path='/Menu' component={Article}/>
           <Route path='/Prising' component={Prising}/>
           <Route path='/Main' component={Main}/>
+          <Route path='/Project' component={Project}/>
+          <Route path='/Technology' component={Technology}/>
 
 
       </div>
