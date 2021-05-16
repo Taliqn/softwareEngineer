@@ -29,13 +29,10 @@ const Article = () => {
                     <span>Проекты</span></NavLink>
                 </div>
                 <div className='boxes' ><NavLink to='/Prising' className='a'>
-                    <span>Клиенты</span></NavLink>
-                </div>
-                <div className='boxes' ><NavLink to='/Prising' className='a'>
                     <span>Контакты</span></NavLink>
                 </div>
                 <div className='boxes'><NavLink to='/Main' className='a'>
-                    <small>Главная</small></NavLink>
+                    <span>Главная</span></NavLink>
                 </div>
 
             </div>

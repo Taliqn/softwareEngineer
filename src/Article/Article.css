@@ -10,46 +10,16 @@
 }
 
 .ar {
+
     display: grid;
     color: #f1f2f8;
     text-align: justify;
     position: relative;
-    margin: 4rem 10rem 10rem 10rem;
+    margin: 4rem ;
     justify-content: center;
-    overflow: scroll;
+
 }
-/*.ar > div {*/
-/*    flex-basis: calc(50% - 40px);*/
-/*}*/
 
-/*.ar::-webkit-scrollbar-button {*/
-
-/*    background-repeat:no-repeat;*/
-/*    width:0;*/
-
-/*}*/
-
-/*.ar::-webkit-scrollbar-track {*/
-/*    background-color: #0a0d0e;*/
-/*    width:0;*/
-/*}*/
-
-/*.ar::-webkit-scrollbar-thumb {*/
-/*    -webkit-border-radius: 0px;*/
-/*    border-radius: 0px;*/
-/*    background-color:#6dc0c8;*/
-/*}*/
-
-/*.ar::-webkit-scrollbar-thumb:hover{*/
-/*    background-color: #0e1315;*/
-/*}*/
-
-/*.ar::-webkit-resizer{*/
-
-/*    background-repeat:no-repeat;*/
-/*    width:0;*/
-/*    height:0px*/
-/*}*/
 
 ::-webkit-scrollbar{
     width: 0%;
@@ -57,7 +27,7 @@
 }
 
 .boxes {
-    /*font-size: calc(20px + 16 * (100vw / 1200));*/
+
     padding: 0;
     margin-bottom: 0;
     display: grid;
@@ -81,18 +51,16 @@
 }
 
 .a {
-    margin: 6%;
-    font-size:2vw;
+    margin: auto;
+    font-size: calc(10px + 16 * (100vw / 1200));
     position: relative;
     display: grid;
-    padding: 5% 8%;
+    padding: 9% 8%;
     color: aliceblue;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    /*letter-spacing: 2px;*/
     text-decoration: silver;
     /*overflow: hidden;*/
-    transition: 0.2s;
-
 
 }
 

@@ -36,9 +36,6 @@ const Header = () => {
                                 <NavLink to='/Technology'  className="header__link">Технологии</NavLink>
                             </li>
                             <li>
-                                <NavLink to='/Menu'  className="header__link">Клиенты</NavLink>
-                            </li>
-                            <li>
                                 <NavLink to='/Menu'  className="header__link">Контакты</NavLink>
                             </li>
 
