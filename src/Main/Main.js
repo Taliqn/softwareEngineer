@@ -15,7 +15,6 @@ const Main = () => {
                   data-aos-mirror="true"
                   data-aos-once="false"
                   data-aos-anchor-placement="top-center" className='Main'>
-            <div className='text2' >
 
             <div className='block'>
                 <div className='infoMains'>
@@ -36,7 +35,7 @@ const Main = () => {
             </div>
 
 
-               </div>
+
         </bottom>
     )
 }

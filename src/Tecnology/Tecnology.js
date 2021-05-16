@@ -15,9 +15,9 @@ const Technology = () => {
                   data-aos-mirror="true"
                   data-aos-once="false"
                   data-aos-anchor-placement="top-center" className='Technology'>
-            <div className='text2' >
 
-                <div className='block2'>
+
+                <div className='block3'>
                     <div className='infoProject'>
                         <h3>Приминяемые технологии</h3><br/>
                         <p>Специализация применяемых технологий основывается на двух современных языках програмирования:</p>
@@ -48,7 +48,7 @@ const Technology = () => {
                 </div>
 
 
-            </div>
+
         </bottom>
     )
 }

@@ -25,9 +25,9 @@
     font-size: calc(10px + 6 * (100vw / 1200));
 }
 
-.block2 {
+.block3 {
     width: auto;
-    height: 150vh;
+    height: 280vh;
     padding-top: 4%;
     padding-left: 10%;
     padding-right: 10%;
