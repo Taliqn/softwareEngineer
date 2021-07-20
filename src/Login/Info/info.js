@@ -1,6 +1,5 @@
 import React, {useEffect} from "react";
 import './info.css'
-import {NavLink} from "react-router-dom";
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
