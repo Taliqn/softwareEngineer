@@ -28,7 +28,7 @@ const Article = () => {
                 <div className='boxes'><NavLink to='/Project' className='a'>
                     <span>Проекты</span></NavLink>
                 </div>
-                <div className='boxes' ><NavLink to='/Prising' className='a'>
+                <div className='boxes' ><NavLink to='/Info' className='a'>
                     <span>Контакты</span></NavLink>
                 </div>
                 <div className='boxes'><NavLink to='/Main' className='a'>

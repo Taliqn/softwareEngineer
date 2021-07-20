@@ -7,6 +7,7 @@ import Prising from './Aos/Aos2'
 import Main from "./Main/Main";
 import Project from "./Project/Project";
 import Technology from "./Tecnology/Tecnology";
+import info from "./Login/Info/info";
 
 
 
@@ -25,6 +26,7 @@ const App = () => {
           <Route path='/Project' component={Project}/>
           <Route path='/Technology' component={Technology}/>
           <Route path='/Menu' component={Article}/>
+          <Route path='/info' component={info}/>
 
 
       </div>
