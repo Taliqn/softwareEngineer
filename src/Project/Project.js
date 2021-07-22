@@ -7,14 +7,7 @@ const Project = () => {
         Aos.init({ duration: 100 })
     }, [])
     return (
-        <bottom   data-aos="flip-right"
-                  data-aos-offset="0"
-                  data-aos-delay="50"
-                  data-aos-duration="300"
-                  data-aos-easing="ease-in-out"
-                  data-aos-mirror="true"
-                  data-aos-once="false"
-                  data-aos-anchor-placement="top-center" className='Project'>
+        <bottom   className='Project'>
 
 
                 <div className='block2'>

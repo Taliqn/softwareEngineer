@@ -4,17 +4,10 @@ import Aos from 'aos'
 
 const Main = () => {
     useEffect (() => {
-        Aos.init({ duration: 100 })
+        Aos.init({ duration: 50 })
     }, [])
     return (
-        <bottom   data-aos="flip-right"
-                  data-aos-offset="0"
-                  data-aos-delay="50"
-                  data-aos-duration="300"
-                  data-aos-easing="ease-in-out"
-                  data-aos-mirror="true"
-                  data-aos-once="false"
-                  data-aos-anchor-placement="top-center" className='Main'>
+        <bottom className='Main'>
 
             <div className='block'>
                 <div className='infoMains'>

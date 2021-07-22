@@ -4,17 +4,20 @@ import Aos from 'aos'
 
 const Technology = () => {
     useEffect (() => {
-        Aos.init({ duration: 100 })
+        Aos.init({ duration: 0 })
     }, [])
+
     return (
-        <bottom   data-aos="flip-right"
-                  data-aos-offset="0"
-                  data-aos-delay="50"
-                  data-aos-duration="300"
-                  data-aos-easing="ease-in-out"
-                  data-aos-mirror="true"
-                  data-aos-once="false"
-                  data-aos-anchor-placement="top-center" className='Technology'>
+        <bottom
+            // data-aos="flip-right"
+            //       data-aos-offset="0"
+            //       data-aos-delay="0"
+            //       data-aos-duration="300"
+            //       data-aos-easing="ease-in-out"
+            //       data-aos-mirror="true"
+            //       data-aos-once="false"
+            //       data-aos-anchor-placement="top-center"
+                  className='Technology'>
 
 
                 <div className='block3'>
@@ -52,4 +55,5 @@ const Technology = () => {
         </bottom>
     )
 }
+
 export default Technology;

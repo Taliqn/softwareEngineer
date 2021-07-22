@@ -7,19 +7,12 @@ import 'aos/dist/aos.css'
 
 const Info = () => {
     useEffect(() => {
-        Aos.init({duration: 100 })
+        Aos.init({duration: 50 })
     }, [],)
     return (
 
-        <buttom className="mainArticleInfo"
-                data-aos="flip-right"
-                data-aos-offset="0"
-                data-aos-delay="50"
-                data-aos-duration="300"
-                data-aos-easing="ease-in-out"
-                data-aos-mirror="true"
-                data-aos-once="false"
-                data-aos-anchor-placement="top-center">
+        <buttom className="mainArticleInfo">
+
             <div className='ar'>
 
                 <div className='boxesInfo'>
