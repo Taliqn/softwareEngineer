@@ -1,7 +1,7 @@
 .Main {
     /*display: grid;*/
     /*grid-area:  article;*/
-    background: rgba(4, 42, 42, 0.4);
+    background: rgba(255, 255, 255, 0.8);
     /*padding: 0;*/
     overflow: auto;
     height: 100vh;
@@ -10,13 +10,13 @@
     justify-content: center;
 
 
-    /*box-shadow: 0 0 10px #3a4538, 0 0 40px #3b453a, 0 0 80px #3f493d;*/
+    box-shadow: 0 0 10px #3a4538, 0 0 40px #3b453a, 0 0 80px #3f493d;
 }
 
 .infoMains {
     top: 0;
-    color: silver;
-    text-decoration: silver;
+    color: #171010;
+    text-decoration: #070505;
     padding: unset;
     margin: 1rem 0 0 0;
     font-size: calc(10px + 6 * (100vw / 1200));
@@ -26,9 +26,9 @@
     justify-content: center;
     width: auto;
     height: 30rem;
-    background: rgba(4, 42, 42, 0.8);
+    background: rgba(255, 255, 255, 0.8);
     margin: auto;
-    /*box-shadow: 0 0 10px #3a4538, 0 0 40px #3b453a, 0 0 80px #3f493d;*/
+    box-shadow: 0 0 10px #3a4538, 0 0 40px #3b453a, 0 0 80px #3f493d;
     border-radius: 10px;
     padding-top: 4%;
     padding-left: 10%;
@@ -37,7 +37,7 @@
 
 .imgss {
 
-    background-color: rgba(4, 42, 42, 0.9);
+    background: rgba(255, 255, 255, 0.8);
     display: grid;
     border-radius: 50%;
     width: 30%;
@@ -47,7 +47,7 @@
 
 .text3 {
     display: grid;
-    color: #f1f2f8;
+    color: #0b0c11;
     text-align: justify;
     position: center;
     justify-content: center;
@@ -57,7 +57,7 @@
 
  .text2 {
      display: grid;
-     color: #f1f2f8;
+     color: #171821;
      text-align: justify;
      position: relative;
      margin: 3rem 1rem 1rem 1rem;

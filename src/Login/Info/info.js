@@ -26,7 +26,7 @@ const Info = () => {
                     <span>Skype - tall78</span>
                 </div>
                 <div className='boxesInfo'>
-                    <span>Телефон +7(964)339-25-29</span>
+                    <span>Phone +7(964)339-25-29</span>
                 </div>
 
 

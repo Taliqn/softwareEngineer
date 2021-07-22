@@ -1,7 +1,7 @@
 .mainArticle {
     /*display: grid;*/
     /*grid-area:  article;*/
-    background: rgba(4, 42, 42, 0.4);
+    background: rgba(255, 255, 255, 0.9);
     height: 100vh;
     width: 100%;
     overflow: hidden;
@@ -12,7 +12,7 @@
 .ar {
 
     display: grid;
-    color: #f1f2f8;
+    color: #13151c;
     text-align: justify;
     position: relative;
     margin: 4rem ;
@@ -34,17 +34,11 @@
     position: relative;
     justify-content: center;
     align-items: center;
-    /*min-height: 100vh;*/
-    /*background: #031321;*/
-    /*font-family: Consolas;*/
-    /*font-size: calc(10px + 16 * (100vw / 1200));;*/
-    /*position: relative;*/
-    /*display: grid;*/
-    /*padding: 5% 8%;*/
-    color: #8da6ce;
-    /*text-transform: uppercase;*/
+
+    color: #181a1f;
+
     letter-spacing: 2px;
-    text-decoration: silver;
+    text-decoration: #1d1111;
     transition: 0.2s;
 
 
@@ -56,11 +50,7 @@
     position: relative;
     display: grid;
     padding: 9% 8%;
-    color: aliceblue;
-    text-transform: uppercase;
-    /*letter-spacing: 2px;*/
-    text-decoration: silver;
-    /*overflow: hidden;*/
+    color: #1f252a;
 
 }
 
@@ -68,6 +58,6 @@
     margin: auto;
     font-size: calc(10px + 16 * (100vw / 1200));
     color: #000000;
-    background: #e4f5dd;
-    box-shadow: 0 0 10px #dfe5ec, 0 0 40px #dce8ef, 0 0 80px #e6f2f6;
+    background: #0d0d13;
+    box-shadow: 0 0 10px #526376, 0 0 40px #dce8ef, 0 0 80px #e6f2f6;
 }

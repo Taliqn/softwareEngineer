@@ -23,16 +23,16 @@ const Article = () => {
              data-aos-anchor-placement="top-center">
             <div className='ar'>
                 <div className='boxes'><NavLink to='/Technology' className='a'>
-                    <span>Технологии</span></NavLink>
+                    <span>Technology</span></NavLink>
                 </div>
                 <div className='boxes'><NavLink to='/Project' className='a'>
-                    <span>Проекты</span></NavLink>
+                    <span>Project</span></NavLink>
                 </div>
                 <div className='boxes' ><NavLink to='/Info' className='a'>
-                    <span>Контакты</span></NavLink>
+                    <span>Info</span></NavLink>
                 </div>
                 <div className='boxes'><NavLink to='/Main' className='a'>
-                    <span>Главная</span></NavLink>
+                    <span>Main</span></NavLink>
                 </div>
 
             </div>

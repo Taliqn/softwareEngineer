@@ -1,12 +1,13 @@
 .mainArticleInfo {
     /*display: grid;*/
     /*grid-area:  article;*/
-    background: rgba(4, 42, 42, 0.4);
-    height: 100vh;
-    width: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    height: auto;
+    width: 25rem;
     overflow: hidden;
-    /*box-shadow: 0 0 10px #3a4538, 0 0 40px #3b453a, 0 0 80px #3f493d;*/
-    margin: 5rem 0;
+    position: center;
+    box-shadow: 0 0 10px #3a4538, 0 0 40px #3b453a, 0 0 80px #3f493d;
+    margin: 15rem auto ;
 }
 
 .ar {
@@ -41,7 +42,7 @@
     /*position: relative;*/
     /*display: grid;*/
     /*padding: 5% 8%;*/
-    color: #8da6ce;
+    color: #000000;
     /*text-transform: uppercase;*/
     letter-spacing: 2px;
     text-decoration: silver;
@@ -56,10 +57,10 @@
     position: relative;
     display: grid;
     padding: 9% 8%;
-    color: aliceblue;
-    text-transform: uppercase;
+    color: #14181d;
+
     /*letter-spacing: 2px;*/
-    text-decoration: silver;
+    text-decoration: #090505;
     /*overflow: hidden;*/
 
 }

@@ -19,18 +19,18 @@ const Main = () => {
             <div className='block'>
                 <div className='infoMains'>
                     <h3>
-                        Специализация в разработке
-                        SPA APP приложений.</h3><br/>
-                    <li> Создаём проекты эффективные для бизнеса и полезные для клиента.
-                        Решаем задачи любой сложности.</li><br/>
-                        <li> Соблюдаем договоренности по срокам, бюджету и качеству кода.</li>
-                            <br/><h3>Мобильные APP
+                        Development specialization
+                        SPA APP applications.</h3><br/>
+                    <li> We create projects that are effective for business and useful for the client.
+                        We solve problems of any complexity.</li><br/>
+                        <li> We adhere to agreements on deadlines, budget and code quality.</li>
+                            <br/><h3>Mobile APP
                             </h3>
-                            <li>Проектируем уникальные приложения для крупного и среднего бизнеса,
-                                интегрированные с вашими IT-системами. iOS/Android/Кроссплатформа</li><br/>
-                                <h3>Веб-приложения
+                            <li>We design unique applications for large and medium-sized businesses,
+                                integrated with your IT systems. iOS / Android / Cross-platform</li><br/>
+                                <h3>Web applications
                                 </h3>
-                            <li>Создаем Web-приложения и сайты с широким функционалом и сложными интеграциями.</li>
+                            <li>We create Web applications and sites with broad functionality and complex integrations.</li>
                 </div>
             </div>
 

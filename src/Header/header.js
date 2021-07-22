@@ -27,16 +27,16 @@ const Header = () => {
                                 (
                         <ul className="header__list">
                             <li>
-                                <NavLink to='/Main'  className="header__link">Главная</NavLink>
+                                <NavLink to='/Main'  className="header__link">Main</NavLink>
                             </li>
                             <li>
-                                <NavLink to='/Project'  className="header__link">Проектирование</NavLink>
+                                <NavLink to='/Project'  className="header__link">Project</NavLink>
                             </li>
                             <li>
-                                <NavLink to='/Technology'  className="header__link">Технологии</NavLink>
+                                <NavLink to='/Technology'  className="header__link">Technology</NavLink>
                             </li>
                             <li>
-                                <NavLink to='/info'  className="header__link">Контакты</NavLink>
+                                <NavLink to='/info'  className="header__link">info</NavLink>
                             </li>
 
                         </ul>

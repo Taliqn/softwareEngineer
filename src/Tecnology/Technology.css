@@ -1,6 +1,6 @@
 .Technology {
     /*grid-area:  article;*/
-    background: rgba(4, 42, 42, 0.4);
+    background: rgba(255, 255, 255, 0.8);
     /*padding: 0;*/
     overflow: auto;
     height: 100vh;
@@ -8,7 +8,7 @@
     margin: 5rem 0;
     justify-content: center;
     /*position: page;*/
-    /*box-shadow: 0 0 10px #3a4538, 0 0 40px #3b453a, 0 0 80px #3f493d;*/
+    box-shadow: 0 0 10px #3a4538, 0 0 40px #3b453a, 0 0 80px #3f493d;
 }
 
 ::-webkit-scrollbar{
@@ -18,8 +18,8 @@
 
 .infoProject {
     top: 0;
-    color: silver;
-    text-decoration: silver;
+    color: #1a1212;
+    text-decoration: #000000;
     padding: unset;
     margin: 1rem 0 0 0;
     font-size: calc(10px + 6 * (100vw / 1200));
@@ -31,13 +31,13 @@
     padding-top: 4%;
     padding-left: 10%;
     padding-right: 10%;
-    background: rgba(4, 42, 42, 0.8);
+    background: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
 }
 
 .imgss {
 
-    background-color: rgba(4, 42, 42, 0.9);
+    background: rgba(255, 255, 255, 0.8);
     display: grid;
     border-radius: 50%;
     width: 30%;

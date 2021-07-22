@@ -19,33 +19,33 @@ const Project = () => {
 
                 <div className='block2'>
                     <div className='infoProject'>
-                        <h3>Подход к работе</h3><br/>
-                        <div> В зависимости от специфики проекта мы используем один из двух подходов</div><br/>
+                        <h3>Approach to work</h3><br/>
+                        <div> Depending on the specifics of the project, we use one of two approaches</div><br/>
                        1. Time&Material
-                        <li> Проект разбивается на задачи, каждую из которых команда оценивает отдельно,
-                            так что у вас есть возможность вносить любые дополнения в ходе работ.
-                            Когда задача выполнена и вам предоставлен видимый результат — вы оплачиваете
-                            работу команды (оплата может происходить сразу после спринта, ежемесячно, раз в
-                            квартал и т.д. — как вам удобно). Эта модель идеально подходит для реализации MVP
-                            или проектов, которые могут поменяться в зависимости от специфики рынка. Релиз и
-                            тестирование проекта происходит по окончании каждого этапа.</li>
+                        <li> The project is divided into tasks, each of which is assessed by the team separately,
+                            so that you have the opportunity to make any additions in the course of work.
+                            When the task is completed and you are provided with a visible result, you pay
+                            team work (payment can occur immediately after the sprint, monthly, once a
+                            quarter, etc. - as you wish). This model is perfect for MVP implementation
+                            or projects that may change depending on the specifics of the market. Release and
+                            project testing occurs at the end of each stage.</li>
                         <br/>
-                        <h4>Гибкость реализации</h4>
+                        <h4>Flexibility of implementation</h4>
 
                         <li>
-                            Можно вносить изменения в техническое задание во время реализации проекта</li>
-                        <h4>Срочность старта</h4>
-                        <li>Можно начинать без составления сложного технического задания и полного проекта</li>
-                        <h4>Удобство взаимодействия</h4>
-                        <li>Заказчик и руководитель проекта глубоко вовлечены в процесс реализации</li>
-                        <h4>Оптимизация стоимости</h4>
-                        <li>Стоимость проекта меняется как в большую, так и в меньшую сторону по мере
-                            внесения изменений в план реализации</li>
-                        <h4>Прозрачность работы</h4>
-                        <li>Оплата производится по факту за конкретно выполненные работы</li>
+                            You can make changes to the terms of reference during the implementation of the project</li>
+                        <h4>Start urgency</h4>
+                        <li>You can start without drawing up a complex technical task and a complete project</li>
+                        <h4>Convenience of interaction</h4>
+                        <li>The customer and the project manager are deeply involved in the implementation process</li>
+                        <h4>Cost optimization</h4>
+                        <li>The cost of the project changes both up and down as
+                            making changes to the implementation plan</li>
+                        <h4>Transparency of work</h4>
+                        <li>Payment is made after the fact for specific work performed</li>
                         <br/>
                         2. Fixed Price
-                        <li>Модель предполагает, что бюджет на разработку всего проекта и его Техническое Задание утверждается перед стартом работ и остается неизменным. Также перед началом работ утверждается точный календарный срок сдачи проекта, который основывается на Техническом Задании. Таким образом, вы точно знаете стоимость и сроки проекта, но не сможете внести изменения по ходу разработки. Релиз и тестирование проекта происходит по окончании всех работ.</li>
+                        <li>The model assumes that the budget for the development of the entire project and its Terms of Reference are approved before the start of work and remains unchanged. Also, before starting work, the exact calendar deadline for the delivery of the project is approved, which is based on the Terms of Reference. Thus, you know exactly the cost and timing of the project, but you will not be able to make changes during development. The release and testing of the project occurs at the end of all work.</li>
                     </div>
                 </div>
 
