@@ -22,12 +22,12 @@
     text-decoration: #000000;
     padding: unset;
     margin: 1rem 0 0 0;
-    font-size: calc(10px + 6 * (100vw / 1200));
+    font-size: calc(12px + 6 * (100vw / 1200));
 }
 
 .block3 {
     width: auto;
-    height: 280vh;
+    height: 330vh;
     padding-top: 4%;
     padding-left: 10%;
     padding-right: 10%;

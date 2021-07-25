@@ -15,16 +15,16 @@ const Article = () => {
         <buttom className="mainArticle" >
 
             <div className='ar'>
-                <div className='boxes'><NavLink to='/Technology' className='a'>
+                <div className='boxes'><NavLink to='/Technology' className='aInfo'>
                     <span>Technology</span></NavLink>
                 </div>
-                <div className='boxes'><NavLink to='/Project' className='a'>
+                <div className='boxes'><NavLink to='/Project' className='aInfo'>
                     <span>Project</span></NavLink>
                 </div>
-                <div className='boxes' ><NavLink to='/Info' className='a'>
+                <div className='boxes' ><NavLink to='/Info' className='aInfo'>
                     <span>Info</span></NavLink>
                 </div>
-                <div className='boxes'><NavLink to='/Main' className='a'>
+                <div className='boxes'><NavLink to='/Main' className='aInfo'>
                     <span>Main</span></NavLink>
                 </div>
 

@@ -13,16 +13,9 @@ const Info = () => {
 
         <buttom className="mainArticleInfo">
 
-            <div className='ar'>
-
-                <div className='boxesInfo'>
-                    <span>Skype - tall78</span>
-                </div>
-                <div className='boxesInfo'>
-                    <span>Phone +7(964)339-25-29</span>
-                </div>
-
-
+            <div className='arInfo'>
+                <span>Skype - tall78</span>
+                <span>Phone +7(964)339-25-29</span>
             </div>
         </buttom>
 
