@@ -25,7 +25,7 @@ const Technology = () => {
                         <h3>Applied technologies</h3><br/>
                         <p>The specialization of the applied technologies is based on two modern programming languages:</p>
                                 <br/>
-                            <li> React.js - frontend </li>
+                            <li> JavaScript - frontend </li>
                             <li>Node.js - backend</li>
                                 <br/>
                         <div> The Node.js platform is one of the most popular platforms for building efficient and scalable REST API's these days. It is also suitable for building hybrid mobile applications, desktop programs, and even for the IoT.</div><br/>
